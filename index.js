@@ -7,6 +7,10 @@ class BuildHashPlugin {
             filename: 'build-hash.json'
         };
 
+        if (!options) {
+            return;
+        }
+
         if (options.filename) {
             this.options.filename = options.filename;
         }
