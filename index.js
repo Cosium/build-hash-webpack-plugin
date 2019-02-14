@@ -31,3 +31,5 @@ class BuildHashPlugin {
         });
     }
 }
+
+module.exports = BuildHashPlugin;
