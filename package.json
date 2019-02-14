@@ -1,6 +1,6 @@
 {
   "name": "build-hash-webpack-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "repository": "https://github.com/Cosium/build-hash-webpack-plugin.git",
   "author": "Cosium",
