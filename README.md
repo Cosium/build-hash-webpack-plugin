@@ -9,7 +9,7 @@ Webpack plugin that emits a json file contaning the build hash.
 
 When working with Webpack you might want to generate your build hash.
 
-This plug-in outputs a json file contaning a single attribute hash wich is the build hash.
+This plug-in outputs a json file contaning a single attribute hash which is the build hash.
 
 ### Example output:
 
