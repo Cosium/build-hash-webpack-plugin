@@ -7,9 +7,11 @@ Webpack plugin that emits a json file contaning the build hash.
 
 ## Why Is This Useful?
 
-When working with Webpack you might want to generate your build hash.
+For each build, Webpack generates an in-memory hash allowing to know if two build outputs are the same or not.
 
-This plug-in outputs a json file contaning a single attribute hash which is the build hash.
+This plug-in outputs a json file contaning this described build hash.
+
+This can be especially useful when you want to check if a new version of a Single Page Application (SPA) runned by your user's browser is available. The SPA would then, periodically, compare the remote hash with the initial hash and trigger a reload in case of mismatch.
 
 ### Example output:
 
